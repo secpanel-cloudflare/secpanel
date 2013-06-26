@@ -1,0 +1,65 @@
+{
+    "main":"public/javascripts/iubenda_cf.js",
+    "name":Secpanel",
+    "category":"Security,Server Security",
+    "description": "Secpanel protects servers against brute force attacks, denial-of-service(DoS) attacks, slow DoS and more. It can be up and running with a single-click.",
+    "version": "2.0.1",
+	"contributors":[
+	{
+		"name":"Anand Kumar Mishra",
+		"email":"akm@secpanel.com"
+	},{
+		"name":"Rudhir Sharan",
+		"email":"rudhir@secpanel.com"
+	}
+	],
+    "account": {
+        "callback_url": "https://services.secpanel.com/api/cloudflare",
+        "user_fields": ["email"]
+    },
+    "billing": {
+        "type": "zone",
+        "plans":[
+            {
+                "name" : "Single Server Monthly Billing",
+                "price": "29.95"
+            }
+        ]
+    },
+    "config":{
+        "details":{
+            "Price": "$29.95/month",
+            "Category": "Server Security Tool",
+            "Restrictions": "None"
+        },
+        "assets":{
+            "logos" : {
+                "132px": "./public/images/logo-132.png",
+                "200px": "./public/images/logo-200.png"
+            },
+            "detail_page" : [
+                "./public/images/dashboard-mainview.jpg",
+                "./public/images/dashboard-configurationpanelview.jpg"
+            ]
+        },
+        "interface": [
+            {
+                "id": "skip_badge",
+                "type": "select",
+                "name": "Privacy policy widget",
+                "description": "Automatically embed the privacy policy widget on every page",
+                "options": [
+                    {
+                        "label": "Yes",
+                        "value": false,
+                        "selected": true
+                    },
+                    {
+                        "label": "No",
+                        "value": true
+                    }
+                ]
+            }
+        ]
+    }
+}
