@@ -1,7 +1,7 @@
 {
     "name":"Secpanel",
     "category":"Security,Server Security",
-    "description": "Secpanel protects servers against brute force attacks, denial-of-service(DoS) attacks, slow DoS and more. It can be up and running with a single-click.",
+    "description": "Secpanel is a one click security tool for linux servers. Dedicated, VPS and cloud servers.",
     "version": "2.0.1",
 	"contributors":[
 	{
