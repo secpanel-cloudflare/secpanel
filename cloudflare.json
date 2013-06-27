@@ -1,6 +1,5 @@
 {
-    "main":"public/javascripts/iubenda_cf.js",
-    "name":Secpanel",
+    "name":"Secpanel",
     "category":"Security,Server Security",
     "description": "Secpanel protects servers against brute force attacks, denial-of-service(DoS) attacks, slow DoS and more. It can be up and running with a single-click.",
     "version": "2.0.1",
@@ -44,21 +43,18 @@
         },
         "interface": [
             {
-                "id": "skip_badge",
-                "type": "select",
-                "name": "Privacy policy widget",
-                "description": "Automatically embed the privacy policy widget on every page",
-                "options": [
-                    {
-                        "label": "Yes",
-                        "value": false,
-                        "selected": true
-                    },
-                    {
-                        "label": "No",
-                        "value": true
-                    }
-                ]
+                "type": "string",
+                "name": "Customer Name",
+                "description": "Enter your full name",
+                "id": "cname",
+                "domain_request": true
+            },
+            {
+                "type": "string",
+                "name": "Server IP",
+                "description": "Enter the IPv4 IP address of your server.",
+                "id": "server_ip",
+                "domain_request": true
             }
         ]
     }
