@@ -14,7 +14,7 @@
 	}
 	],
     "account": {
-        "callback_url": "https://services.secpanel.com/api/cloudflare",
+        "callback_url": "https://callbacks.secpanel.com/cfapis/",
         "user_fields": ["email"]
     },
     "billing": {
