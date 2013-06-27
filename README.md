@@ -1,4 +1,4 @@
-secpanel
+Secpanel
 ========
 
-A secpanel cloudflare integration app
+Secpanel CloudFlare integration application.
