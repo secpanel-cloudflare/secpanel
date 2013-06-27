@@ -1,9 +1,11 @@
-A security tool for server protection
-=====================================
+Secpanel | One click easy to use security tool for linux servers
+================================================================
 
-Secpanel is a security tool made for novice user to handle server security related issues.
+Secpanel is a security tool for linux servers. It is simple to install and easy to use.
+It works on cloud, VPS or dedicated servers.
 
 
-for more details plz write at support[at]secpanel[dot]com
-or visit us at https://secpanel.com
-take a free demo for 30 days at https://install.secpanel.com/billing2/signup.php
+For more details please write to support[at]secpanel[dot]com
+or visit us at http://secpanel.com
+
+Sign up for a 30 day free trial: Click here https://install.secpanel.com/billing2/signup.php
