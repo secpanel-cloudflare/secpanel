@@ -8,4 +8,3 @@ It works on cloud, VPS or dedicated servers.
 For more details please write to support[at]secpanel[dot]com
 or visit us at http://secpanel.com
 
-Sign up for a 30 day free trial: Click here https://install.secpanel.com/billing2/signup.php
