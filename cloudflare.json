@@ -2,7 +2,7 @@
     "name":"Secpanel",
     "category":"server security",
     "description": "Secpanel is a one click security tool for linux servers. Dedicated, VPS and cloud servers.",
-    "version": "2.1.2",
+    "version": "2.1.1",
 	"contributors":[
 	{
 		"name":"Anand Kumar Mishra",
