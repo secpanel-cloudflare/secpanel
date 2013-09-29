@@ -47,14 +47,16 @@
                 "name": "Customer Name",
                 "description": "Enter your full name",
                 "id": "cname",
-                "domain_request": true
+                "domain_request": true,
+                "private": true
             },
             {
                 "type": "string",
                 "name": "Server IP",
                 "description": "Enter the IPv4 IP address of your server.",
                 "id": "server_ip",
-                "domain_request": true
+                "domain_request": true,
+                "private": true
             }
         ]
     }
